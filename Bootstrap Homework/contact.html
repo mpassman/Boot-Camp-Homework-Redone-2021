@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main Page</title>
+
+    <!--## Directions
+
+First, you will use the Bootstrap CSS Framework to recreate your portfolio. How do you deliver this? Here are some guidelines:
+
+* Create the following pages: `index.html`, `portfolio.html` and `contact.html`.
+
+* Using Bootstrap, recreate your portfolio site with the following items:
+
+   * A navbar
+
+   * A responsive layout
+
+   * Responsive images
+
+* The Bootstrap portfolio should minimize the use of media queries.-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="cyborg.css">
+    <link rel="stylesheet" href="bootstrap-override.css">
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#name">Michael Passman</a>
+
+        <div class="topnav-right">
+            <a href="#search">About Me</a>
+            <a href="#search">Portfolio</a>
+            <a href="#about">Contact</a>
+        </div>
+    </div>
+    <div class="container">
+      <div class="contact">
+        <div class="row">
+            <div class="col md-3">
+              <div class="text-center"><h3>Contact</h3></div>
+            </div>
+          </div>
+          <div class="row-md-3">
+            <div class="col">
+        <form action="action_page.php">
+      
+          <label for="fname">Name</label>
+          
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+          </div>
+          <div class="row-md-3">
+            <div class="col">
+          <label for="email">email</label>
+          
+          <input type="text" id="email" name="email" placeholder="Email">
+        </div>
+          </div>
+     
+          <div class="row-md-3">
+            <div class="col">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+            </div></div></div>
+      </div>
+    
+
+</body>
+
+</html>
